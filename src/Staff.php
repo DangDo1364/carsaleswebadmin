@@ -7,6 +7,10 @@ class Staff
     {
         return trim("$this->firstName $this->lastName");
     }
+    public function getLastName()
+    {
+        return $his->lastName;
+    }
 }
 ?>
 
