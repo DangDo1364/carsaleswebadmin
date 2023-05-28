@@ -6,7 +6,7 @@ class StaffTest extends TestCase
 {
     public function testReturnFullName()
     {
-        require("Staff.php");
+        require("./src/Staff.php");
 
         $staff = new Staff;
 
